@@ -9,10 +9,10 @@
 	scanf("%i",&x);
 	if (x>0)
 {
-	printf("O valor é positivo\n");
+	printf("O valor Ã© positivo\n");
 }
 	else{  
-		printf("O valor é negativo\n");
+	    printf("O valor Ã© negativo\n");
 }
 }
 
