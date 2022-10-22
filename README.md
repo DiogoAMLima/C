@@ -4,4 +4,5 @@ Codes about language C
         <li>Basic codes</li>
         <li>Strings</li>
         <li>Conditionals</li>
+        <li>Loops</li>
  </ul>
