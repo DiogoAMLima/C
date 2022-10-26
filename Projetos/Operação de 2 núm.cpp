@@ -5,11 +5,11 @@ int main(){
 	float n1,n2;
 	int op;
 	setlocale(LC_ALL,"");
-	printf("Informe um n�mero: ");
+	printf("Informe um número: ");
 	scanf("%f",&n1);
-	printf("Informe outro n�mero: ");
+	printf("Informe outro número: ");
 	scanf("%f",&n2);
-	printf("Que opera��o deseja fazer (+ = 1, - = 2, * = 3, / = 4)? ");
+	printf("Que operação deseja fazer (Digite 1 para Adição, 2 para subtração, 3 para multiplicação e 4 para divisão): ");
 	scanf("%d",&op); 
 	
     switch(op){
