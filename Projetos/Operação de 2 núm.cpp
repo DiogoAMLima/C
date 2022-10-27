@@ -9,7 +9,7 @@ int main(){
 	scanf("%f",&n1);
 	printf("Informe outro número: ");
 	scanf("%f",&n2);
-	printf("Que operação deseja fazer (Digite 1 para Adição, 2 para subtração, 3 para multiplicação e 4 para divisão): ");
+	printf("Que operação deseja fazer (Digite 1 para Adição, 2 para subtração, 3 para multiplicação ou 4 para divisão): ");
 	scanf("%d",&op); 
 	
     switch(op){
