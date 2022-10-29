@@ -5,4 +5,5 @@ Codes about language C
         <li>Strings</li>
         <li>Conditionals</li>
         <li>Loops</li>
+        <li>Char</li>
  </ul>
