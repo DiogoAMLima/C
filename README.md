@@ -6,4 +6,5 @@ Codes about language C
         <li>Conditionals</li>
         <li>Loops</li>
         <li>Char</li>
+        <li>Functions</li>
  </ul>
