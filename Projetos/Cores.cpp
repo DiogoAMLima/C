@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 
-// 0 - Preto
 // 1 - Azul
 // 2 - Verde
-// 3 - Verde-·gua
+// 3 - Verde-√°gua
 // 4 - Vermelho
 // 5 - Roxo
 // 6 - Amarelo
@@ -13,9 +12,9 @@
 // 8 - Cinza
 // 9 - Azul claro
 // A - Verde Claro
-// B - Verde-·gua claro
+// B - Verde-√°gua claro
 // C - Vermelho Claro
-// D - Lil·s
+// D - Lil√°s
 // E - Amarelo Claro
 // F - Branco Brilhante
 
@@ -29,6 +28,6 @@ int main()
    scanf("%s", &nome);
    printf("\nInforme a idade: ");
    scanf("%d", &idade);
-   printf("\nO nome da pessoa È: %s e a idade È: %d anos", nome, idade);
+   printf("\nO nome da pessoa √©: %s e a idade √©: %d anos", nome, idade);
    return 0;
 }
