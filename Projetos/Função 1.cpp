@@ -3,7 +3,6 @@
 #include <locale.h>
 #include "biblio.h"
 
-
 int main()
 {	
     int C;
