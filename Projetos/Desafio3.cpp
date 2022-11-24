@@ -7,15 +7,15 @@ int main(){
 	do
 	{
 	    system("cls");
-		setlocale(LC_ALL,"");
-		printf("-----Tabuada-----\n\n");
-		printf("Informe um número: ");
-		scanf("%d",&num);
-		for(cont=0;cont<=10;cont++)
+	    setlocale(LC_ALL,"");
+	    printf("-----Tabuada-----\n\n");
+	    printf("Informe um nÃºmero: ");
+	    scanf("%d",&num);
+	    for(cont=0;cont<=10;cont++)
 	{
-		printf("\n%d x %d = %d\n",num,cont,num*cont);
+	    printf("\n%d x %d = %d\n",num,cont,num*cont);
 	}
-	printf("\nDigite 1 para sair ou qualquer outro número para fazer um novo cálculo: ");
+	printf("\nDigite 1 para sair ou qualquer outro nÃºmero para fazer um novo cÃ¡lculo: ");
 	scanf("%d",&resposta);
 	}while(resposta != 1);
 	return 0;
