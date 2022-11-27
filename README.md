@@ -7,4 +7,5 @@ Codes about language C
         <li>Loops</li>
         <li>Char</li>
         <li>Functions</li>
+        <li>Colors</li>
  </ul>
