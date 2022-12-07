@@ -3,13 +3,13 @@
 #include <locale.h>
 
 int main(){
-	setlocale(LC_ALL,"");
-	float alt,base,area;
-	printf("Informe a altura: ");
-	scanf("%f",&alt);
-	printf("Informe a base: ");
-	scanf("%f",&base);
-	area=base*alt/2;
-	printf("A ·rea do tri‚ngulo È igual a: %.1f",area);
-	return 0;
+    setlocale(LC_ALL,"");
+    float alt,base,area;
+    printf("Informe a altura: ");
+    scanf("%f",&alt);
+    printf("Informe a base: ");
+    scanf("%f",&base);
+    area=base*alt/2;
+    printf("A √°rea do tri√¢ngulo √© igual a: %.1f",area);
+    return 0;
 }
