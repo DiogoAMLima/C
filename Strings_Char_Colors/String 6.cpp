@@ -23,7 +23,7 @@ main(){
      }
      else{
 	 printf("\nNão é palíndromo");
-      }
+     }
 	
       printf("\n\n");
       system("pause");
