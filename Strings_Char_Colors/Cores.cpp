@@ -20,7 +20,7 @@
 
 int main()
 {
-   system("color D");
+   system("color C");
    int idade;
    char nome[30];
    setlocale(LC_ALL,"");
