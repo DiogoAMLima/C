@@ -5,7 +5,7 @@
 
 int main()
 {
-    int y;
+   int y;
     char x[40];
     setlocale (LC_ALL, "");
     printf("Dê o valor da string x: ");
