@@ -1,12 +1,12 @@
- #include <stdio.h>
- #include <locale.h>
+#include <stdio.h>
+#include <locale.h>
  
 int main ()
 {
    char Ch;
    setlocale(LC_ALL,"");
-   printf("Aperte uma tecla (ser· considerada a primeira tecla pressionada): ");
+   printf("Aperte uma tecla (ser√° considerada a primeira tecla pressionada): ");
    Ch = getchar();
-   printf("\nO cÛdigo ASCII da tecla pressionada È: %d\n",Ch);
+   printf("\nO c√≥digo ASCII da tecla pressionada √©: %d\n",Ch);
    return (0); 
 }
