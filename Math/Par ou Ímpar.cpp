@@ -3,20 +3,19 @@
 
     main( )
 {
-	setlocale(LC_ALL,"");
-	int x;
-	printf("Informe um n˙mero: ");
-	scanf("%i",&x);
-	printf("\nO n˙mero digitado foi: %i\n",x);
-	if (x%2==0)
+    setlocale(LC_ALL,"");
+    int x;
+    printf("Informe um n√∫mero: ");
+    scanf("%i",&x);
+    printf("\nO n√∫mero digitado foi: %i\n",x);
+    if (x%2==0)
 {
-	printf("\nO valor digitado È: PAR\n");
+    printf("\nO valor digitado √©: PAR\n");
 	
 }
-	else
+    else
 {
-	printf("\nO valor digitado È: ÕMPAR\n");
+    printf("\nO valor digitado √©: √çMPAR\n");
 }  
 	
-}    
-    
+}
