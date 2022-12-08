@@ -5,18 +5,18 @@
 
 main()
 {
-	int i,tam=30;
-	char nome[tam];
-	setlocale(LC_ALL,"");
-	printf("Digite um nome com até 30 caracteres abaixo... \n\n");
-	printf("Digite um nome: ");
-	gets(nome);
+    int i,tam=30;
+    char nome[tam];
+    setlocale(LC_ALL,"");
+    printf("Digite um nome com atÃ© 30 caracteres abaixo... \n\n");
+    printf("Digite um nome: ");
+    gets(nome);
 	
-	for(i=0;i<strlen(nome);i++)
-	{
-		printf("\nletra %d: \%c\n",i+1,nome[i]);
-	}
-	printf("\n\n");
+    for(i=0;i<strlen(nome);i++)
+    {
+	printf("\nletra %d: \%c\n",i+1,nome[i]);
+    }
+    printf("\n\n");
 	
-	system("pause");
+    system("pause");
 }
