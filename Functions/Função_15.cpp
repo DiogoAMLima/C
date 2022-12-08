@@ -4,16 +4,16 @@
 
 char codigo(char tecla)
 {
-	char ascii;
-	ascii = tecla;
-	return ascii;
+    char ascii;
+    ascii = tecla;
+    return ascii;
 }
 
 int main() {
-	char ch;
-	setlocale(LC_ALL,"");
-	system("color B");
-	printf("Aperte uma tecla (ser· considerada a primeira tecla pressionada): ");
+    char ch;
+    setlocale(LC_ALL,"");
+    system("color B");
+    printf("Aperte uma tecla (ser√° considerada a primeira tecla pressionada): ");
     ch = getchar();
-    printf("\nO cÛdigo ASCII da tecla pressionada È: %d\n",codigo(ch));
+    printf("\nO c√≥digo ASCII da tecla pressionada √©: %d\n",codigo(ch));
 }
