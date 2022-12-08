@@ -15,6 +15,5 @@ int main()
   setlocale(LC_ALL,"");
   printf("Digite o valor em celsius: ");
   scanf("%f",&C);
-  printf("\nO valor em fahrenheit é: %.2f",fah(C));
-	
+  printf("\nO valor em fahrenheit Ã©: %.2f",fah(C));	
 }
