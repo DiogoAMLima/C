@@ -8,4 +8,5 @@ Codes about language C
         <li>Char</li>
         <li>Functions</li>
         <li>Colors</li>
+        <li>Recursive function</li>
  </ul>
