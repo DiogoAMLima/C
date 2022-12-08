@@ -5,9 +5,9 @@
 
 int main()
 {
-	char x[30];
-	setlocale(LC_ALL, "");
-	printf("Dê o valor da string x: ");
-	scanf("%s",x);
-    printf("o valor de x é: %s",x);
+    char x[30];
+    setlocale(LC_ALL, "");
+    printf("DÃª o valor da string x: ");
+    scanf("%s",x);
+    printf("o valor de x Ã©: %s",x);
 }
