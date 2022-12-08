@@ -8,7 +8,7 @@ void Troca(int c, int d){
     if(c > d){
         na = c;
         nb = d;
-    printf("\nValores não trocados = {%d,%d}\n",na,nb);
+    printf("\nValores nÃ£o trocados = {%d,%d}\n",na,nb);
     }else if(d > c){
         na = d;
         nb = c;
@@ -22,12 +22,11 @@ int main()
 
     int c = 0, d = 0;
 
-    printf("Digite um número: ");
+    printf("Digite um nÃºmero: ");
     scanf("%d", &c);
-    printf("Digite outro número: ");
+    printf("Digite outro nÃºmero: ");
     scanf("%d", &d);
     Troca(c, d);
 
     return 0;
 }
-
