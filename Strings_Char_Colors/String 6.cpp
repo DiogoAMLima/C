@@ -4,27 +4,27 @@
 #include <locale.h>
 
 main(){
-	char texto[100],inverso[100];
-	int i,f;
-	setlocale(LC_ALL,"");
-	printf("Digite um texto: ");
-	gets(texto);
-	printf("\nO tamanho È : %zu ",strlen(texto)); // strlen = tamanho da string
-	f=0;
-	for(i=strlen(texto)-1;i>=0;i--){
-	inverso[f]=texto[i];
-	f++;	
-	}
-	inverso[f] = '\0';
-	printf("\n\nO inverso È : %s \n",inverso);
+    char texto[100],inverso[100];
+    int i,f;
+    setlocale(LC_ALL,"");
+    printf("Digite um texto: ");
+    gets(texto);
+    printf("\nO tamanho √© : %zu ",strlen(texto)); // strlen = tamanho da string
+    f=0;
+    for(i=strlen(texto)-1;i>=0;i--){
+    inverso[f]=texto[i];
+    f++;	
+    }
+    inverso[f] = '\0';
+    printf("\n\nO inverso √© : %s \n",inverso);
 	
-	if(strcmp(texto,inverso)==0){ // strcmp = ComparaÁ„o de strings. Se ambas forem iguais, um valor zero ser· retornado significando que È palÌndromo
-		printf("\n… palÌndromo");
-	}
-	else{
-		printf("\nN„o È palÌndromo");
-	}
+    if(strcmp(texto,inverso)==0){ // strcmp = Compara√ß√£o de strings. Se ambas forem iguais, um valor zero ser√° retornado significando que √© pal√≠ndromo
+	printf("\n√â pal√≠ndromo");
+     }
+     else{
+	 printf("\nN√£o √© pal√≠ndromo");
+      }
 	
-	printf("\n\n");
-	system("pause");
+      printf("\n\n");
+      system("pause");
 }
