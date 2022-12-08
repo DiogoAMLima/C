@@ -2,21 +2,20 @@
 #include <locale.h>
     main( )
 {
-	  setlocale(LC_ALL,"");	
-	  int x;
-	  printf("Informe um número: ");
-	  scanf("%i",&x);
-	  if (x>0)
-	{
-		printf("\nO valor é: Positivo\n");
-	}
-	  else if (x<0)
-	{
-		printf("\nO valor é: Negativo\n");
+      setlocale(LC_ALL,"");	
+      int x;
+      printf("Informe um nÃºmero: ");
+      scanf("%i",&x);
+      if (x>0)
+    {
+	printf("\nO valor Ã©: Positivo\n");
+     }
+      else if (x<0)
+     {
+	printf("\nO valor Ã©: Negativo\n");
     }
       else
     {
-    	printf("\nO valor é: 0\n");	
-	}  
+    	printf("\nO valor Ã©: 0\n");	
+     }  
 }     
-
