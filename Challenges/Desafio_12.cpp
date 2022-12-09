@@ -41,4 +41,3 @@ return 1;
     fclose(pont_arq);
 printf("\nDados gravados com sucesso!");
 }
-
