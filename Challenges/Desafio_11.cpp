@@ -3,39 +3,39 @@
 #include <string.h>
 
 int main(){
-	FILE *file;
-	file = fopen("Programa.txt", "w");
+    FILE *file;
+    file = fopen("Programa.txt", "w");
 	
-	if(file == NULL)
-	{
-		printf("Erro na leitura do arquivo \n");
-		return 1;
-	}
-	char frase[30];
-	int i;
-	int tamanho;
+    if(file == NULL)
+    {
+	printf("Erro na leitura do arquivo \n");
+	return 1;
+    }
+    char frase[30];
+    int i;
+    int tamanho;
 
-	fprintf (file,"OlaMundo");
+    fprintf (file,"OlaMundo");
 	 
-	fclose(file);
+    fclose(file);
 	
-	file = fopen("Programa.txt", "r");
+    file = fopen("Programa.txt", "r");
 	
-	if(file == NULL)
-	{
-		printf("Erro na leitura do arquivo \n");
-		return 2;
-	}
+    if(file == NULL)
+    {
+	printf("Erro na leitura do arquivo \n");
+	return 2;
+    }
 	
-	fgets (frase,30,file);
+    fgets (frase,30,file);
 	
-	tamanho = strlen(frase);
+    tamanho = strlen(frase);
 	
-	printf("\nTotal de caracteres presente: %d",tamanho);
-	printf("\n\n");
+    printf("\nTotal de caracteres presente: %d",tamanho);
+    printf("\n\n");
 
-   	fclose(file);
-	system("pause");
-	return 0;
+    fclose(file);
+    system("pause");
+    return 0;
 }
 
