@@ -6,16 +6,16 @@
 int fat(int N)
 {
     if (N < 2)
-	return 1;
-	else
+    return 1;
+    else
     return N*fat(N-1);
 }
 
 int main()
 {
     int N;
-	setlocale(LC_ALL,"");
-	printf("Digite um num: ");
-	scanf("%d",&N);
-	printf("\nO fatorial de %d é: %d ",N, fat(N));
+    setlocale(LC_ALL,"");
+    printf("Digite um num: ");
+    scanf("%d",&N);
+    printf("\nO fatorial de %d Ã©: %d ",N, fat(N));
 }
