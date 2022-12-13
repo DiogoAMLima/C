@@ -6,17 +6,17 @@
 using namespace std;
 
 float divide(float x) {
-	float num, divide1;
-	num = x;
-	divide1 = num / 2;
-	return divide1;
+    float num, divide1;
+    num = x;
+    divide1 = num / 2;
+    return divide1;
 }
 
 int main() {
-	float numero;
-	setlocale(LC_ALL,"");
-	cout << "Digite um número: ";
-	cin >> numero;
-	cout << "\nO número" << ' ' << numero << " dividido por 2 é: " << divide(numero) << endl << endl;
-	system("pause");
+    float numero;
+    setlocale(LC_ALL,"");
+    cout << "Digite um nÃºmero: ";
+    cin >> numero;
+    cout << "\nO nÃºmero" << ' ' << numero << " dividido por 2 Ã©: " << divide(numero) << endl << endl;
+    system("pause");
 }
