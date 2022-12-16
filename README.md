@@ -9,4 +9,5 @@ Codes about language C
         <li>Functions</li>
         <li>Colors</li>
         <li>Recursive function</li>
+        <li>Cout and Cin</li>
  </ul>
