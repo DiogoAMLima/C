@@ -10,4 +10,5 @@ Codes about language C
         <li>Colors</li>
         <li>Recursive function</li>
         <li>Cout and Cin</li>
+        <li>Pointer</li>
  </ul>
